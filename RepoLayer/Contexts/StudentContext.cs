@@ -11,7 +11,7 @@ namespace RepoLayer
 {
     public class StudentContext : DbContext
     {
-        public StudentContext() : base("StudentContext")
+        public StudentContext() : base("LoginOnionStructureContext")
         {
         }
 
