@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title">Onion Architecture</h1>
+    </section>
+
+    <div class="row">
+        <section class="col-md-10 aria-labelledby="gettingStartedTitle">
+            
+            <p>Domain entities are the core and centre part. Onion architecture is built on a domain model in which layers are connected through interfaces. The idea is to keep external dependencies as far outward as possible where domain entities and business rules form the core part of the architecture.</p>
+
+            <ul>
+                <li>It provides flexible, sustainable and portable architecture.</li>
+                <li>Layers are not tightly coupled and have a separation of concerns.</li>
+                <li>It provides better maintainability as all the code depends on deeper layers or the centre.</li>
+                <li>Improves overall code testability as unit tests can be created for separate layers without impacting other modules.</li>
+                <li>Frameworks/technologies can be easily changed without impacting the core domain. e.g. RabbitMQ can be replaced by ActiveMQ, SQL can be replaced by MongoDB.</li>
+            </ul>
+
+        </section>
+    </div>
+</main>
+
